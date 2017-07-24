@@ -1,0 +1,22 @@
+<HTML>
+<HEAD>
+<TITLE>Port Locator</TITLE>
+</HEAD>
+<BODY bgcolor="#07BF1A">
+<CENTER>
+<BR><BR>
+<H1>Device Locator Tool</H1>
+<form action="/ip/ip2port.py" method="post">
+<table border="1" cellpadding="20" style="font-family:arial;">
+<tr>
+<td bgcolor="white">
+<CENTER><p style="display:inline;font-size:30px">Device IP: </p></CENTER><br>
+<input autofocus title="Please enter the host IP appropriately!!" required type="text" name="ip" pattern="\b(10)\.(14[0-9])\.(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\b">
+<input type="submit" value="Submit">
+</td></tr></table>
+<p style="display:inline;background-color:"white";font-size:15px"><i>Input example: 10.147.47.2</i></p>
+
+<hr>
+<p>Note: This webapp currently only works for hosts connected to newer layer 3 switches.  Anything on the 10.140-149.0.0/16 networks (10.14*.*.* IPs for example).  Hosts on legacy or virtual infrastructure not supported at this time.</p>
+</BODY>
+</HTML>
