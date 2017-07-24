@@ -1,5 +1,5 @@
 Hi.  You're probably expecting a really nice fancy python script that maps IP to Port.
-Unfortunately I suck at coding and just custom tailored some stuff to work in my environment.
+Unfortunately I suck at coding and just custom tailored some stuff to work in my environment.  This does work really well in my environment and saves me a lot of time hunting down devices.
 
 My environment is campus edge routing for the access layer, so my hosts hang off the switch stacks directly without having to branch down several legs of switches.
 
